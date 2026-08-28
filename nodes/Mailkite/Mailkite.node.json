@@ -1,0 +1,18 @@
+{
+	"node": "n8n-nodes-mailkite.mailkite",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/mailkite/n8n-nodes-mailkite#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/mailkite/n8n-nodes-mailkite"
+			}
+		]
+	}
+}
