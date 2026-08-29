@@ -37,7 +37,8 @@
 			"dist/credentials/MailKiteApi.credentials.js"
 		],
 		"nodes": [
-			"dist/nodes/Mailkite/Mailkite.node.js"
+			"dist/nodes/Mailkite/Mailkite.node.js",
+			"dist/nodes/MailkiteTrigger/MailkiteTrigger.node.js"
 		]
 	},
 	"devDependencies": {
