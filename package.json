@@ -1,7 +1,7 @@
 {
 	"name": "n8n-nodes-mailkite",
 	"version": "0.1.0",
-	"description": "n8n community node for MailKite — send email with one API from a verified domain.",
+	"description": "n8n community node for MailKite — send email from a verified domain with one API call, and trigger workflows when email arrives.",
 	"license": "MIT",
 	"homepage": "https://github.com/mailkite/n8n-nodes-mailkite",
 	"keywords": [
