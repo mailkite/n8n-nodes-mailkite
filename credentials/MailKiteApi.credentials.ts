@@ -13,7 +13,7 @@ export class MailKiteApi implements ICredentialType {
 
 	icon: Icon = { light: 'file:../icons/mailkite.svg', dark: 'file:../icons/mailkite.dark.svg' };
 
-	documentationUrl = 'https://mailkite.dev/docs';
+	documentationUrl = 'https://mailkite.dev/docs?utm_source=n8n&utm_medium=integration&utm_campaign=community-node';
 
 	properties: INodeProperties[] = [
 		{

@@ -1,6 +1,6 @@
 # n8n-nodes-mailkite
 
-[n8n](https://n8n.io) community node for [MailKite](https://mailkite.dev) — send email
+[n8n](https://n8n.io) community node for [MailKite](https://mailkite.dev/?utm_source=n8n&utm_medium=integration&utm_campaign=community-node) — send email
 from a verified domain with one API call, and trigger workflows when email arrives.
 
 ## Features
