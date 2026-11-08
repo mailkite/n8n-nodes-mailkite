@@ -304,6 +304,7 @@ export class Mailkite implements INodeType {
 					'mailkiteApi',
 					{
 						method: 'POST',
+						baseURL: 'https://api.mailkite.dev',
 						url: '/v1/send',
 						body,
 						json: true,

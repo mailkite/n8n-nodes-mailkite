@@ -86,6 +86,7 @@ export async function getDomain(
 ): Promise<MailkiteDomain | null> {
 	const response = (await this.helpers.httpRequestWithAuthentication.call(this, 'mailkiteApi', {
 		method: 'GET',
+		baseURL: 'https://api.mailkite.dev',
 		url: `/api/domains/${domainId}`,
 	})) as { domain?: MailkiteDomain };
 	return response?.domain ?? null;
@@ -102,6 +103,7 @@ export async function getWebhookSecret(
 ): Promise<string | null> {
 	const response = (await this.helpers.httpRequestWithAuthentication.call(this, 'mailkiteApi', {
 		method: 'GET',
+		baseURL: 'https://api.mailkite.dev',
 		url: `/api/domains/${domainId}/webhook/secret`,
 	})) as { secret?: string };
 	return response?.secret ?? null;
@@ -120,6 +122,7 @@ export async function setWebhook(
 ): Promise<string | null> {
 	const response = (await this.helpers.httpRequestWithAuthentication.call(this, 'mailkiteApi', {
 		method: 'PUT',
+		baseURL: 'https://api.mailkite.dev',
 		url: `/api/domains/${domainId}/webhook`,
 		body: data,
 		json: true,
@@ -135,6 +138,7 @@ export async function setWebhook(
 export async function deleteWebhook(this: IHookFunctions, domainId: string): Promise<void> {
 	await this.helpers.httpRequestWithAuthentication.call(this, 'mailkiteApi', {
 		method: 'DELETE',
+		baseURL: 'https://api.mailkite.dev',
 		url: `/api/domains/${domainId}/webhook`,
 	});
 }

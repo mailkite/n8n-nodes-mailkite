@@ -113,6 +113,7 @@ export class MailkiteTrigger implements INodeType {
 					'mailkiteApi',
 					{
 						method: 'GET',
+						baseURL: 'https://api.mailkite.dev',
 						url: '/api/domains',
 					},
 				)) as Array<{ id: string; domain: string; mx_verified?: boolean }>;
